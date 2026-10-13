@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template Web Sederhana 3</title>
+        <link rel="stylesheet" href="STYLE.CSS">
+    </head>
+    <body>
+        <div id="bl">
+            <div id="kepala">
+                <b class="kepala">SWISS</b>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div id="badan">
+                <div id="kiri">
+                    <h2>Hubungi Kami</h2>
+                    <p>Punya pertanyaan tentang Swiss atau ingin memberi saran? Isi form di bawah ini.</p>
+
+                    <form action="mailto:emailkamu@gmail.com" method="post" enctype="text/plain" class="form-kontak">
+                        <div class="baris">
+                            <label>Nama</label>
+                            <input type="text" name="nama" placeholder="Nama lengkap" required>
+                        </div>
+                        
+                        <div class="baris">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="contoh@email.com" required>
+                        </div>
+                        <div class="baris">
+                            <label>Topik</label>
+                            <select name="topik">
+                                <option>Pertanyaan umum</option>
+                                <option>Saran dan masukan</option>
+                                <option>Kerja sama</option>
+                            </select>
+                        </div>                        
+                        <div class="baris atas">
+                            <label>Pesan</label>
+                            <textarea name="pesan" rows="4" placeholder="Tulis pesanmu di sini..."></textarea>
+                        </div>
+                        
+                        <div class="baris">
+                            <label></label>
+                            <button type="submit">Kirim Pesan</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="kanan">
+                    <ul>
+                        <li>swiss@email.com</li>
+                        <li>+62 812-3456-7890</li>
+                        <li>Bali, Indonesia</li>
+                        <li>Senin-Jumat<br>09.00-17.00</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="kaki">
+                &copy; 2019
+            </div>
+        </div>
+    </body>
+</html>
